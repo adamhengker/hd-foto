@@ -175,7 +175,7 @@
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-            version: "db21e45e40c8b670f10b48d3a12d8b4f6634f17f6b6f1f03167b06c2a3ae4c58",
+            version: "d2f4a4e0b4b9e34d42f24e6e78fc1d2e309d63d1eb5e4cc5a1c5b0aad1c3c365",
             input: { image: base64Image }
           })
         });
@@ -209,7 +209,7 @@
         }, 1500);
       } catch (err) {
         alert("Gagal proses gambar.");
-        console.error(err);
+        console.error("Error detail:", err);
       }
     });
   </script>
